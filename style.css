@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Oswald:wght@500&family=Quicksand&display=swap');
+body{
+    background-color: #f4f1ee;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+#cabecalho{
+    background-color: #161A30;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 5px;
+}
+#menu{
+    margin-left: 70%;
+    background-color: #161A30;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+#menu:hover{
+    background-color: #31304D;
+    cursor: pointer;
+}
+#categorias{
+    width: 100%;
+    background-color: #31304D;
+    display: flex;
+}
+.categoria{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+#corpo{
+    display: flex;
+    flex-direction: row;
+}
+#post{
+    padding:10px;
+    width: 50%;
+}
+.titulo{
+    font-size: 20px;
+}
+.imagempost{
+    max-width: 40%;
+}
+.descricao{
+    font-size: 12px;
+}   
+#sobre{
+    width: 50%;
+}
